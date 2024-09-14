@@ -26,12 +26,7 @@
     ]
   },
   "include": [
-    "vite.config.ts",
-    "src",
-    "vite",
-    "src/svg.d.ts",
-    "src/vite-env.d.ts",
-    "src/index.tsx"
+    "src/**/*",
   ],
   "exclude": [
     "node_modules",
