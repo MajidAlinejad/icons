@@ -21,9 +21,19 @@
     "declaration": true, // Enable declaration file generation
     "declarationMap": true, // Optional: generates .d.ts.map files
     "emitDeclarationOnly": true, // Only emit declaration files
+    "types": [
+      "vite-plugin-svgr/client"
+    ]
   },
   "include": [
     "vite.config.ts",
-    "src/lib"
-  ]
+    "src/lib",
+    "vite",
+    "src/svg.d.ts",
+    "src/vite-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Exclude the dist folder
 }
