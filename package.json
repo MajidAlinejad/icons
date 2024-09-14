@@ -3,10 +3,14 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
+  "main": "dist/cli.cjs",
+  "module": "dist/cli.js",
+  "bin": "dist/cli.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "compile": "tsup",
     "preview": "vite preview"
   },
   "dependencies": {
