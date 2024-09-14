@@ -1,4 +1,4 @@
-import * as ICON from "./icons";
+import * as ICON from "./lib/icons";
 import "./app.css";
 function App() {
   return (
