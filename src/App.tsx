@@ -1,4 +1,4 @@
-import * as ICON from "./lib/icons";
+import * as ICON from "./icons-react";
 import "./app.css";
 function App() {
   return (

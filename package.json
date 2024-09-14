@@ -3,9 +3,9 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "main": "dist/icons.cjs",
-  "module": "dist/icons.js",
-  "bin": "dist/icons.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@svgr/plugin-svgo": "^8.1.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
