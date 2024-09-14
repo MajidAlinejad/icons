@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b",
+    "prebuild": "vite build",
     "lint": "eslint .",
     "compile": "tsup",
     "preview": "vite preview"
