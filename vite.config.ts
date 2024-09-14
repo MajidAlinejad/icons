@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), svgr()],
   build: {
     lib: {
-      entry: "src/lib/index.tsx",
+      entry: "src/index.tsx",
       name: "IvanIcons",
       fileName: (format) => `index.${format}.js`,
       formats: ["es", "cjs"],
