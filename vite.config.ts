@@ -9,7 +9,7 @@ export default defineConfig({
       entry: "src/lib/index.tsx",
       name: "IvanIcons",
       fileName: (format) => `index.${format}.js`,
-      formats: ["es", "umd"],
+      formats: ["es", "cjs"],
     },
     rollupOptions: {
       output: {
