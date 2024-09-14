@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: "src/lib/index.tsx",
       name: "IvanIcons",
-      fileName: (format) => `ivan-icons.${format}.js`,
+      fileName: (format) => `index.${format}.js`,
       formats: ["es", "umd"],
     },
     rollupOptions: {

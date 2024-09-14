@@ -1,9 +1,9 @@
-import * as ICON from "./icons-react";
-import "./app.css";
+// import * as ICON from "./lib/index";
+// import "./app.css";
 function App() {
   return (
     <>
-      <div className="app">
+      {/* <div className="app">
         <div>
           <ICON.IC_10 color="#942e2e" />
           <span>IC_10</span>
@@ -7476,7 +7476,7 @@ function App() {
           <ICON.IC_Wow color="#942e2e" />
           <span>IC_Wow</span>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
