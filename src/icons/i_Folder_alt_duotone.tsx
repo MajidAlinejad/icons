@@ -5,6 +5,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M8 7H3V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10L20 11H11L8 7Z"
