@@ -16,7 +16,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M5 11H19"
       stroke="#CCD2E3"
       strokeWidth="2"
-      stroke-miterlimit="1.41421"
+      strokeMiterlimit="1.41421"
     />
   </svg>
 );
