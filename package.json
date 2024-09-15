@@ -13,7 +13,7 @@
     "prebuild": "vite build",
     "lint": "eslint .",
     "compile": "tsc -b",
-    "builds": "tsup",
+    "builds": "tsup --jsx",
     "prepublishOnly": "npm run build",
     "precompile": "tsup",
     "preview": "vite preview"

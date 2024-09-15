@@ -8,5 +8,7 @@ export default defineConfig({
   dts: true, // Generate declaration files
   sourcemap: true, // Generate source maps
   clean: true, // Clean the output directory before each build
+  jsx: "react-jsx", // or 'react', depending on React version
+
   // esbuildPlugins: [svgr({})],
 });
