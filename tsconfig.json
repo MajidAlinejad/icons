@@ -14,7 +14,8 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "outDir": "./dist",
   },
   "include": [
     "src"
