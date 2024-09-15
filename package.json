@@ -10,11 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b",
-    "prebuild": "vite build",
     "lint": "eslint .",
-    "Ocompile": "tsc -b",
-    "builds": "tsup --jsx",
-    "prepublishOnly": "npm run build",
     "compile": "tsup",
     "preview": "vite preview"
   },
