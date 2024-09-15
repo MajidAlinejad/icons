@@ -9,7 +9,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
   >
     <mask
       id="mask0_0_1059"
-      style="mask-type:alpha"
+      style={{ maskType: "alpha" }}
       maskUnits="userSpaceOnUse"
       x="3"
       y="3"
