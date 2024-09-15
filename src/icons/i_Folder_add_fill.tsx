@@ -18,7 +18,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M9 14H12M12 14H15M12 14V17M12 14V11"
       stroke="#1E1E1E"
-      stroke-width="2"
+      strokeWidth="2"
     />
   </svg>
 );

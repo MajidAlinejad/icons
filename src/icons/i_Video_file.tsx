@@ -14,7 +14,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M12 3H7C5.89543 3 5 3.89543 5 5V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V10M12 3H13.5858C13.851 3 14.1054 3.10536 14.2929 3.29289L18.7071 7.70711C18.8946 7.89464 19 8.149 19 8.41421V10M12 3V8C12 9.10457 12.8954 10 14 10H19"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
   </svg>
 );

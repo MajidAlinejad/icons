@@ -10,7 +10,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M12 19V6C12 6 11 4 7.5 4C4 4 3 6 3 6V19C3 19 4 17 7.5 17C11 17 12 19 12 19Z"
       fill="#7E869E"
-      fill-opacity="0.25"
+      fillOpacity="0.25"
     />
     <mask
       id="mask0_0_8239"

@@ -10,20 +10,20 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M5.6 7C5.6 6.2268 6.2268 5.6 7 5.6H15C16.8778 5.6 18.4 7.12223 18.4 9V17C18.4 17.7732 17.7732 18.4 17 18.4H7C6.2268 18.4 5.6 17.7732 5.6 17V7Z"
       fill="#7E869E"
-      fill-opacity="0.25"
+      fillOpacity="0.25"
       stroke="currentColor"
-      stroke-width="1.2"
+      strokeWidth="1.2"
     />
-    <path d="M9 6V2" stroke="currentColor" stroke-width="1.2" />
-    <path d="M9 22V18" stroke="currentColor" stroke-width="1.2" />
-    <path d="M15 22V18" stroke="currentColor" stroke-width="1.2" />
-    <path d="M22 15L18 15" stroke="currentColor" stroke-width="1.2" />
-    <path d="M6 15L2 15" stroke="currentColor" stroke-width="1.2" />
-    <path d="M6 9L2 9" stroke="currentColor" stroke-width="1.2" />
+    <path d="M9 6V2" stroke="currentColor" strokeWidth="1.2" />
+    <path d="M9 22V18" stroke="currentColor" strokeWidth="1.2" />
+    <path d="M15 22V18" stroke="currentColor" strokeWidth="1.2" />
+    <path d="M22 15L18 15" stroke="currentColor" strokeWidth="1.2" />
+    <path d="M6 15L2 15" stroke="currentColor" strokeWidth="1.2" />
+    <path d="M6 9L2 9" stroke="currentColor" strokeWidth="1.2" />
     <path
       d="M15 2.6C15.8405 2.6 16.6727 2.76554 17.4492 3.08717C18.2257 3.4088 18.9312 3.88022 19.5255 4.47452C20.1198 5.06881 20.5912 5.77434 20.9128 6.55083C21.2345 7.32731 21.4 8.15954 21.4 9"
       stroke="currentColor"
-      stroke-width="1.2"
+      strokeWidth="1.2"
     />
   </svg>
 );

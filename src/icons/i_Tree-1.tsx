@@ -10,7 +10,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M12 16V19.5"
       stroke="currentColor"
-      stroke-width="1.6"
+      strokeWidth="1.6"
       strokeLinecap="round"
       strokeLinejoin="round"
     />

@@ -16,7 +16,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       transform="rotate(90 18 9)"
       fill="currentColor"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <rect
       x="18"
@@ -27,7 +27,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       transform="rotate(90 18 17)"
       fill="currentColor"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <rect
       x="3"
@@ -38,17 +38,17 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       transform="rotate(-90 3 7)"
       fill="currentColor"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <path
       d="M5 6V15C5 16.8856 5 17.8284 5.58579 18.4142C6.17157 19 7.11438 19 9 19H14"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <path
       d="M5 7V7C5 8.88562 5 9.82843 5.58579 10.4142C6.17157 11 7.11438 11 9 11H14"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
   </svg>
 );

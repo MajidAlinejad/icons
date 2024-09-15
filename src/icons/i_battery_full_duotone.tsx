@@ -14,7 +14,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       height="15"
       rx="1.5"
       fill="#7E869E"
-      fill-opacity="0.25"
+      fillOpacity="0.25"
     />
     <rect x="8" y="7" width="8" height="13" rx="1" fill="currentColor" />
     <rect
@@ -24,7 +24,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       height="2"
       rx="1"
       fill="#7E869E"
-      fill-opacity="0.25"
+      fillOpacity="0.25"
     />
   </svg>
 );

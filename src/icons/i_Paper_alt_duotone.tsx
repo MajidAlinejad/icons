@@ -14,7 +14,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M15 6V17.5C15 18.8807 16.1193 20 17.5 20H7C5.34315 20 4 18.6569 4 17V6C4 4.89543 4.89543 4 6 4H13C14.1046 4 15 4.89543 15 6Z"
       fill="#2A4157"
-      fill-opacity="0.24"
+      fillOpacity="0.24"
     />
     <path
       d="M12 6H7C6.44772 6 6 6.44772 6 7V9C6 9.55228 6.44772 10 7 10H12C12.5523 10 13 9.55228 13 9V7C13 6.44772 12.5523 6 12 6Z"

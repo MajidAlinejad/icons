@@ -27,7 +27,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       height="0.5"
       rx="0.25"
       stroke="currentColor"
-      stroke-width="0.5"
+      strokeWidth="0.5"
       strokeLinecap="round"
     />
     <rect
@@ -38,7 +38,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       rx="0.25"
       transform="rotate(90 18.75 3.25)"
       stroke="currentColor"
-      stroke-width="0.5"
+      strokeWidth="0.5"
       strokeLinecap="round"
     />
   </svg>

@@ -17,7 +17,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       r="2"
       transform="matrix(-1 0 0 1 17 15)"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
   </svg>
 );

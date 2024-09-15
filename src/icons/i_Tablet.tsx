@@ -14,9 +14,9 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       height="18"
       rx="2"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
-    <path d="M15 17H9" stroke="currentColor" stroke-width="2" />
+    <path d="M15 17H9" stroke="currentColor" strokeWidth="2" />
   </svg>
 );
 export default SvgComponent;

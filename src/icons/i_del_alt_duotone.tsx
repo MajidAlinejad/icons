@@ -7,7 +7,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <ellipse cx="12" cy="7" rx="7" ry="3" fill="#7E869E" fill-opacity="0.25" />
+    <ellipse cx="12" cy="7" rx="7" ry="3" fill="#7E869E" fillOpacity="0.25" />
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"

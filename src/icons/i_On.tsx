@@ -14,7 +14,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       height="10"
       rx="2"
       stroke="currentColor"
-      stroke-width="2"
+      strokeWidth="2"
     />
     <rect x="12" y="9" width="5" height="6" rx="1" fill="currentColor" />
   </svg>

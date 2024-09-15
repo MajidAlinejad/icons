@@ -21,7 +21,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       stroke-opacity="0.24"
       strokeLinecap="round"
     />
-    <circle cx="16.5" cy="7.5" r="1.5" fill="#2A4157" fill-opacity="0.24" />
+    <circle cx="16.5" cy="7.5" r="1.5" fill="#2A4157" fillOpacity="0.24" />
   </svg>
 );
 export default SvgComponent;

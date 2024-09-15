@@ -12,11 +12,11 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       cy="12"
       r="9"
       fill="#7E869E"
-      fill-opacity="0.25"
+      fillOpacity="0.25"
       stroke="currentColor"
-      stroke-width="1.2"
+      strokeWidth="1.2"
     />
-    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.2" />
+    <path d="M8 12L11 15L16 9" stroke="currentColor" strokeWidth="1.2" />
   </svg>
 );
 export default SvgComponent;

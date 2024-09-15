@@ -12,7 +12,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       stroke="#2A4157"
       stroke-opacity="0.24"
     />
-    <circle cx="12" cy="13" r="3.4" stroke="currentColor" stroke-width="1.2" />
+    <circle cx="12" cy="13" r="3.4" stroke="currentColor" strokeWidth="1.2" />
   </svg>
 );
 export default SvgComponent;

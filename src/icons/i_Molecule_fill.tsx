@@ -8,7 +8,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx="12" cy="12" r="4" fill="currentColor" />
-    <circle cx="18" cy="19" r="1" stroke="currentColor" stroke-width="2" />
+    <circle cx="18" cy="19" r="1" stroke="currentColor" strokeWidth="2" />
     <circle cx="19" cy="5" r="3" fill="currentColor" />
     <circle cx="5.5" cy="5.5" r="2.5" fill="currentColor" />
     <circle cx="5.5" cy="18.5" r="3.5" fill="currentColor" />
