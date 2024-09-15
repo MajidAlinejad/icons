@@ -9,11 +9,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "builds": "tsc -b",
+    "build": "tsc -b",
     "prebuild": "vite build",
     "lint": "eslint .",
     "compile": "tsc -b",
-    "build": "tsup",
+    "builds": "tsup",
     "prepublishOnly": "npm run build",
     "precompile": "tsup",
     "preview": "vite preview"
