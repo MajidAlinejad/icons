@@ -16,8 +16,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       strokeLinejoin="round"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M10.8336 9.49989L12 9.99976L13.1664 9.49988L19 12L12 15L5 12L10.8336 9.49989Z"
       fill="#7E869E"
       fillOpacity="0.25"
@@ -27,8 +27,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill="currentColor"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M10.8333 14.5L12 15L13.1667 14.5L19 17L12 20L5 17L10.8333 14.5Z"
       fill="#7E869E"
       fillOpacity="0.25"

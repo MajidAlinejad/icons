@@ -14,14 +14,14 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M14.0662 15.9978C14.0882 15.9993 14.1104 16 14.1328 16H17.8673C18.4688 16 18.9228 15.4678 18.6875 14.9142C18.3224 14.0554 17.557 13 16.0001 13C15.1431 13 14.5259 13.3197 14.0833 13.7504C14.479 14.134 14.7039 14.6056 14.8317 15.0178C14.9887 15.524 14.587 15.9632 14.0662 15.9978Z"
       fill="currentColor"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M9.9167 13.7504C9.4741 13.3197 8.85694 13 8 13C6.44304 13 5.67763 14.0554 5.31252 14.9142C5.0772 15.4678 5.53127 16 6.13277 16H9.86721C9.88962 16 9.91183 15.9993 9.9338 15.9978C9.413 15.9632 9.01128 15.5241 9.16826 15.0178C9.29607 14.6056 9.52097 14.134 9.9167 13.7504Z"
       fill="currentColor"
     />

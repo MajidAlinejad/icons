@@ -7,7 +7,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <circle cx="12" cy="12" r="8.5" stroke="#2A4157" stroke-opacity="0.24" />
+    <circle cx="12" cy="12" r="8.5" stroke="#2A4157" strokeOpacity="0.24" />
     <circle
       cx="12"
       cy="18"

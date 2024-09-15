@@ -8,8 +8,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M13 16.7531V14H8.81765C7.2009 14 5.83018 15.1888 5.60154 16.7893C5.29859 18.9099 7.095 20.7381 9.2206 20.4724L9.77823 20.4027C11.6188 20.1727 13 18.608 13 16.7531Z"
       fill="currentColor"
     />

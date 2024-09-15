@@ -14,8 +14,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <circle cx="12" cy="10" r="4" fill="currentColor" />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M18.9463 20.2532C18.9616 20.3587 18.9048 20.4613 18.8063 20.5021C17.6048 21 15.8353 21 13 21H11C8.16476 21 6.3953 21 5.19377 20.5022C5.0953 20.4614 5.03846 20.3587 5.05373 20.2532C5.48265 17.2919 8.42909 15 12 15C15.571 15 18.5174 17.2919 18.9463 20.2532Z"
       fill="currentColor"
     />

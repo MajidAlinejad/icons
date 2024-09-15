@@ -37,8 +37,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M13.6873 9.51872C13.4971 8.77626 13.2215 8.05529 12.864 7.37071L4 12L12.721 16.8933C13.1484 16.1315 13.4725 15.3201 13.6875 14.4804C13.2067 14.808 12.6257 14.9996 12 14.9996C10.3431 14.9996 9 13.6565 9 11.9996C9 10.3428 10.3431 8.99962 12 8.99962C12.6256 8.99962 13.2065 9.19113 13.6873 9.51872Z"
       fill="currentColor"
     />

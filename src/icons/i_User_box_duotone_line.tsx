@@ -28,7 +28,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       height="19"
       rx="1.5"
       stroke="#2A4157"
-      stroke-opacity="0.24"
+      strokeOpacity="0.24"
       strokeLinecap="round"
     />
   </svg>

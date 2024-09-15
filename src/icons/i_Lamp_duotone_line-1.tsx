@@ -10,14 +10,14 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M11 13V9.75C11 9.05964 10.4404 8.5 9.75 8.5V8.5C9.05964 8.5 8.5 9.05964 8.5 9.75V9.75C8.5 10.4404 9.05964 11 9.75 11H14.25C14.9404 11 15.5 10.4404 15.5 9.75V9.75C15.5 9.05964 14.9404 8.5 14.25 8.5V8.5C13.5596 8.5 13 9.05964 13 9.75V13"
       stroke="#7E869E"
-      stroke-opacity="0.25"
+      strokeOpacity="0.25"
       strokeLinecap="round"
     />
-    <circle cx="12" cy="9" r="6.5" stroke="#7E869E" stroke-opacity="0.25" />
+    <circle cx="12" cy="9" r="6.5" stroke="#7E869E" strokeOpacity="0.25" />
     <mask id="path-3-inside-1_0_1882" fill="white">
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M15 15.5C15 15.3968 15.0558 15.3004 15.1479 15.2539C17.4329 14.1015 19 11.7338 19 9C19 5.13401 15.866 2 12 2C8.13401 2 5 5.13401 5 9C5 11.7338 6.56713 14.1015 8.85205 15.2539C8.94419 15.3004 9 15.3968 9 15.5V18.5C9 19.8807 10.1193 21 11.5 21H12.5C13.8807 21 15 19.8807 15 18.5V15.5Z"
       />
     </mask>

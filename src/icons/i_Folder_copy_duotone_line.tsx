@@ -16,35 +16,35 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M6 7H5C3.89543 7 3 7.89543 3 9V10"
       stroke="#7E869E"
-      stroke-opacity="0.25"
+      strokeOpacity="0.25"
       strokeWidth="1.2"
       stroke-miterlimit="1.41421"
     />
     <path
       d="M6 20H5C3.89543 20 3 19.1046 3 18V17"
       stroke="#7E869E"
-      stroke-opacity="0.25"
+      strokeOpacity="0.25"
       strokeWidth="1.2"
       stroke-miterlimit="1.41421"
     />
     <path
       d="M13 20H14C15.1046 20 16 19.1046 16 18V17"
       stroke="#7E869E"
-      stroke-opacity="0.25"
+      strokeOpacity="0.25"
       strokeWidth="1.2"
       stroke-miterlimit="1.41421"
     />
     <path
       d="M11 20H8"
       stroke="#7E869E"
-      stroke-opacity="0.25"
+      strokeOpacity="0.25"
       strokeWidth="1.2"
       stroke-miterlimit="1.41421"
     />
     <path
       d="M3 12L3 15"
       stroke="#7E869E"
-      stroke-opacity="0.25"
+      strokeOpacity="0.25"
       strokeWidth="1.2"
       stroke-miterlimit="1.41421"
     />

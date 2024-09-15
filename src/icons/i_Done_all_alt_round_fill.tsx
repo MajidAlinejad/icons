@@ -24,8 +24,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     >
       <rect fill="white" x="8.86938" y="2.99997" width="18" height="17" />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M11.8694 16.5761L12.603 17.163C13.4589 17.8477 14.7063 17.716 15.4003 16.8677L23.774 6.63324C24.1237 6.20579 24.0607 5.57577 23.6333 5.22604C23.2058 4.87631 22.5758 4.93932 22.2261 5.36676L13.8524 15.6013L13.1359 15.0281L11.8694 16.5761Z"
       />
     </mask>
