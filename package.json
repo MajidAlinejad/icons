@@ -12,10 +12,10 @@
     "build": "tsc -b",
     "prebuild": "vite build",
     "lint": "eslint .",
-    "compile": "tsc -b",
+    "Ocompile": "tsc -b",
     "builds": "tsup --jsx",
     "prepublishOnly": "npm run build",
-    "precompile": "tsup",
+    "compile": "tsup",
     "preview": "vite preview"
   },
   "dependencies": {
