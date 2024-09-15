@@ -25,7 +25,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M5 10H19"
       stroke="currentColor"
       stroke-width="1.2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

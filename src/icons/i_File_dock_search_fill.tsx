@@ -18,7 +18,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M21 21L19.5 19.5"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       fill-rule="evenodd"

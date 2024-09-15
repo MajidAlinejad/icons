@@ -10,7 +10,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M2.5 7.5C2.5 6.94771 2.94772 6.5 3.5 6.5H17.9064C18.2723 6.5 18.609 6.69989 18.7843 7.02115L21.2388 11.5211C21.4016 11.8196 21.4016 12.1804 21.2388 12.4789L18.7843 16.9789C18.609 17.3001 18.2723 17.5 17.9064 17.5H3.5C2.94772 17.5 2.5 17.0523 2.5 16.5V7.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <circle
       cx="16"
@@ -18,7 +18,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       r="1.5"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

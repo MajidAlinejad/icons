@@ -11,7 +11,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M11 13V9.75C11 9.05964 10.4404 8.5 9.75 8.5V8.5C9.05964 8.5 8.5 9.05964 8.5 9.75V9.75C8.5 10.4404 9.05964 11 9.75 11H14.25C14.9404 11 15.5 10.4404 15.5 9.75V9.75C15.5 9.05964 14.9404 8.5 14.25 8.5V8.5C13.5596 8.5 13 9.05964 13 9.75V13"
       stroke="#7E869E"
       stroke-opacity="0.25"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <circle cx="12" cy="9" r="6.5" stroke="#7E869E" stroke-opacity="0.25" />
     <mask id="path-3-inside-1_0_1882" fill="white">

@@ -7,9 +7,9 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <path d="M3.5 7.5H7.5" stroke="currentColor" stroke-linecap="round" />
-    <path d="M3.5 15.5H7.5" stroke="currentColor" stroke-linecap="round" />
-    <path d="M3.5 11.5H7.5" stroke="currentColor" stroke-linecap="round" />
+    <path d="M3.5 7.5H7.5" stroke="currentColor" strokeLinecap="round" />
+    <path d="M3.5 15.5H7.5" stroke="currentColor" strokeLinecap="round" />
+    <path d="M3.5 11.5H7.5" stroke="currentColor" strokeLinecap="round" />
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -17,7 +17,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill="#7E869E"
       fill-opacity="0.25"
     />
-    <path d="M15.5 10.5V7.5" stroke="currentColor" stroke-linecap="round" />
+    <path d="M15.5 10.5V7.5" stroke="currentColor" strokeLinecap="round" />
   </svg>
 );
 export default SvgComponent;

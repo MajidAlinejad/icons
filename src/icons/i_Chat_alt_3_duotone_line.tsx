@@ -25,7 +25,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill="currentColor"
       stroke="currentColor"
       stroke-width="0.2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <circle
       cx="12"
@@ -34,7 +34,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill="currentColor"
       stroke="currentColor"
       stroke-width="0.2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <circle
       cx="8"
@@ -43,7 +43,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill="currentColor"
       stroke="currentColor"
       stroke-width="0.2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

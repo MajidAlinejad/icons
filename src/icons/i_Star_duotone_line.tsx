@@ -15,31 +15,31 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M17 6L19 4"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M20 16L22 18"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M12 19.5V22"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M7 6L5 4"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M4 16L2 18"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

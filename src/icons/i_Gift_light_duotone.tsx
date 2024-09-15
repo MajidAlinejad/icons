@@ -15,15 +15,15 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M12 8L11.7608 5.84709C11.6123 4.51089 10.4672 3.5 9.12282 3.5V3.5C7.68381 3.5 6.5 4.66655 6.5 6.10555V6.10555C6.5 6.97673 6.93539 7.79026 7.66025 8.2735L9.5 9.5"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M12 8L12.2392 5.84709C12.3877 4.51089 13.5328 3.5 14.8772 3.5V3.5C16.3162 3.5 17.5 4.66655 17.5 6.10555V6.10555C17.5 6.97673 17.0646 7.79026 16.3397 8.2735L14.5 9.5"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <rect x="4" y="8" width="16" height="3" rx="1" fill="currentColor" />
-    <path d="M12 11V15" stroke="currentColor" stroke-linecap="round" />
+    <path d="M12 11V15" stroke="currentColor" strokeLinecap="round" />
   </svg>
 );
 export default SvgComponent;

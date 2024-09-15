@@ -16,16 +16,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M13 8V3.60355C13 3.38083 13.2693 3.26929 13.4268 3.42678L18.5732 8.57322C18.7307 8.73071 18.6192 9 18.3964 9H14C13.4477 9 13 8.55228 13 8Z"
       fill="currentColor"
     />
-    <path
-      d="M8.5 13.5L14.5 13.5"
-      stroke="currentColor"
-      stroke-linecap="round"
-    />
-    <path
-      d="M8.5 16.5L13.5 16.5"
-      stroke="currentColor"
-      stroke-linecap="round"
-    />
+    <path d="M8.5 13.5L14.5 13.5" stroke="currentColor" strokeLinecap="round" />
+    <path d="M8.5 16.5L13.5 16.5" stroke="currentColor" strokeLinecap="round" />
   </svg>
 );
 export default SvgComponent;

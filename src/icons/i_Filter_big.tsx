@@ -11,13 +11,13 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       d="M11 8L20 8"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M4 16L14 16"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <ellipse
       cx="7"
@@ -27,7 +27,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       transform="rotate(90 7 8)"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <ellipse
       cx="17"
@@ -37,7 +37,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       transform="rotate(90 17 16)"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

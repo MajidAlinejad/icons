@@ -16,7 +16,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill="#2A4157"
       fill-opacity="0.24"
     />
-    <path d="M9.5 3.5H14.5" stroke="currentColor" stroke-linecap="round" />
+    <path d="M9.5 3.5H14.5" stroke="currentColor" strokeLinecap="round" />
     <circle cx="12" cy="20" r="1" fill="currentColor" />
   </svg>
 );

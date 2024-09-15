@@ -13,13 +13,13 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       r="10"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M8.32429 16.2726C8.74217 16.1822 9.3005 16.1149 9.92802 16.0696C10.5633 16.0237 11.2773 16 12 16C12.7227 16 13.4367 16.0237 14.072 16.0696C14.6995 16.1149 15.2578 16.1822 15.6757 16.2726"
       stroke="currentColor"
       stroke-width="2"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <mask
       id="path-3-outside-1_0_4748"
@@ -40,7 +40,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M9.5 10C9.74028 10 9.86042 10 9.93306 10.1225C10.0057 10.2449 9.96299 10.3231 9.87758 10.4794C9.8323 10.5623 9.7751 10.6391 9.70711 10.7071C9.51957 10.8946 9.26522 11 9 11C8.73478 11 8.48043 10.8946 8.29289 10.7071C8.2249 10.6391 8.16771 10.5623 8.12242 10.4794C8.03701 10.3231 7.9943 10.2449 8.06694 10.1225C8.13958 10 8.25972 10 8.5 10L9 10H9.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
       mask="url(#path-3-outside-1_0_4748)"
     />
     <mask
@@ -62,7 +62,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M15.5 10C15.7403 10 15.8604 10 15.9331 10.1225C16.0057 10.2449 15.963 10.3231 15.8776 10.4794C15.8323 10.5623 15.7751 10.6391 15.7071 10.7071C15.5196 10.8946 15.2652 11 15 11C14.7348 11 14.4804 10.8946 14.2929 10.7071C14.2249 10.6391 14.1677 10.5623 14.1224 10.4794C14.037 10.3231 13.9943 10.2449 14.0669 10.1225C14.1396 10 14.2597 10 14.5 10L15 10H15.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
       mask="url(#path-4-outside-2_0_4748)"
     />
   </svg>

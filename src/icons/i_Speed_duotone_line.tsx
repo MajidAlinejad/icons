@@ -10,13 +10,13 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M9.5 15C9.5 14.6717 9.56466 14.3466 9.6903 14.0433C9.81594 13.74 10.0001 13.4644 10.2322 13.2322C10.4644 13.0001 10.74 12.8159 11.0433 12.6903C11.3466 12.5647 11.6717 12.5 12 12.5C12.3283 12.5 12.6534 12.5647 12.9567 12.6903C13.26 12.8159 13.5356 13.0001 13.7678 13.2322C13.9999 13.4644 14.1841 13.74 14.3097 14.0433C14.4353 14.3466 14.5 14.6717 14.5 15"
       stroke="currentColor"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
     />
     <path
       d="M13.5 12.5L15.5 9.5"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       fill-rule="evenodd"
@@ -28,8 +28,8 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M16.5 15.5L7.5 15.5"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

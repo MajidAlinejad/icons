@@ -13,7 +13,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       fill-opacity="0.25"
       stroke="currentColor"
       stroke-width="1.2"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
     />
     <path
       fill-rule="evenodd"

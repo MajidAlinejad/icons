@@ -8,7 +8,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <rect x="5" y="5" width="14" height="14" rx="3" stroke="currentColor" />
-    <path d="M5 10L19 10" stroke="currentColor" stroke-linecap="round" />
+    <path d="M5 10L19 10" stroke="currentColor" strokeLinecap="round" />
   </svg>
 );
 export default SvgComponent;

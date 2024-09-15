@@ -12,7 +12,7 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
       cy="9"
       r="1.5"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M15.701 8.25C15.8999 7.90547 16.2275 7.65408 16.6118 7.55111C16.996 7.44815 17.4055 7.50205 17.75 7.70096C18.0945 7.89987 18.3459 8.2275 18.4489 8.61177C18.5519 8.99604 18.498 9.40547 18.299 9.75C18.1001 10.0945 17.7725 10.3459 17.3882 10.4489C17.004 10.5519 16.5945 10.498 16.25 10.299C15.9055 10.1001 15.6541 9.7725 15.5511 9.38823C15.4481 9.00396 15.502 8.59453 15.701 8.25L15.701 8.25Z"
@@ -33,31 +33,31 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M12 12.5C14.3642 12.5 15.1314 14.3251 15.3804 15.5097C15.494 16.0501 15.0523 16.5 14.5 16.5H9.5C8.94772 16.5 8.50601 16.0501 8.61961 15.5097C8.86859 14.3251 9.63581 12.5 12 12.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M18.5 21.5H20C20.8284 21.5 21.5 20.8284 21.5 20V18.5"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M18.5 2.5H20C20.8284 2.5 21.5 3.17157 21.5 4V5.5"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M5.5 21.5H4C3.17157 21.5 2.5 20.8284 2.5 20V18.5"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M5.5 2.5H4C3.17157 2.5 2.5 3.17157 2.5 4V5.5"
       stroke="#2A4157"
       stroke-opacity="0.24"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

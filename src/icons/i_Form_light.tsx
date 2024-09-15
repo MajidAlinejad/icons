@@ -14,10 +14,10 @@ const SvgComponent = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M15 18L15 21M9 18L9 21"
       stroke="currentColor"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
-    <path d="M9 8L15 8" stroke="currentColor" stroke-linecap="round" />
-    <path d="M9 12L15 12" stroke="currentColor" stroke-linecap="round" />
+    <path d="M9 8L15 8" stroke="currentColor" strokeLinecap="round" />
+    <path d="M9 12L15 12" stroke="currentColor" strokeLinecap="round" />
   </svg>
 );
 export default SvgComponent;
