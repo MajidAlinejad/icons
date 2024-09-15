@@ -6,13 +6,9 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   entry: ["src"],
   splitting: false,
-  sourcemap: true,
-  clean: true,
-  shims: true,
-  dts: false,
-  format: ["cjs", "esm"],
-  loader: {
-    ".svg": "copy",
-  },
+  format: ["cjs", "esm"], // Output formats
+  dts: true, // Generate declaration files
+  sourcemap: true, // Generate source maps
+  clean: true, // Clean the output directory before each build
   // esbuildPlugins: [svgr({})],
 });
